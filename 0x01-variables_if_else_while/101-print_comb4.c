@@ -5,6 +5,7 @@
  *
  * Return: Always 0
 */
+
 int main(void)
 {
 	int i;
@@ -13,7 +14,7 @@ int main(void)
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		for (j = 1 ; < 10; j++)
+		for (j = 1 ; < 10 ; j++)
 		{
 			for (k = 2 ; k < 10 ; k++)
 			{
