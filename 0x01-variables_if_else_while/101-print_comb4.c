@@ -12,11 +12,11 @@ int main(void)
 	int j;
 	int k;
 
-	while (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; i < 10 ; i++)
 	{
-		while (j = 1 ; < 10 ; j++)
+		for (j = 1 ; < 10 ; j++)
 		{
-			while (k = 2 ; k < 10 ; k++)
+			for (k = 2 ; k < 10 ; k++)
 			{
 				if (i < j && j < k)
 				{
