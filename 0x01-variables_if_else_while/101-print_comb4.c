@@ -12,11 +12,11 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = 0 ; i < 10 ; i++)
+	while (i = 0 ; i < 10 ; i++)
 	{
-		for (j = 1 ; < 10 ; j++)
+		while (j = 1 ; < 10 ; j++)
 		{
-			for (k = 2 ; k < 10 ; k++)
+			while (k = 2 ; k < 10 ; k++)
 			{
 				if (i < j && j < k)
 				{
@@ -29,8 +29,11 @@ int main(void)
 						putchar(' ');
 					}
 				}
+				i++;
 			}
+			k++;
 		}
+		j++;
 	}
 	putchar('\n');
 	return (0);
